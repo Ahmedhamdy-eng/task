@@ -12,8 +12,8 @@ if (!function_exists('fireSmsMessage')) {
    */
     function fireSmsMessage($user)
     {
-        $account_sid = 'AC2454df80b7e02627efb01ea734432620';
-        $auth_token  = '00f07a107e91d5335bcf47c3fc2655ca';
+        $account_sid = config('app.account_sid');
+        $auth_token  = config('app.auth_token');
         // In production, these should be environment variables. E.g.:
         // $auth_token = $_ENV["TWILIO_AUTH_TOKEN"]
 
