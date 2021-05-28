@@ -1,0 +1,1 @@
+  <a href="{{ route('dashboard.' . $route . '.edit', $model->id) }}" class="btn btn-primary btn-sm"><i class="fa fa-edit "></i> @lang('edit')</a>
